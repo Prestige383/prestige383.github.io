@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cookie Clicker</title>
+    </head>
+    <body>
+        <h1>Cookie Clicker</h1>
+        <h3>Created by Prestige383</h3>
+        <img src="http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43c0fc.png" width="150px" onclick="increase()">
+        <p><span id="clicked">0</span> cookies clicked.</p>
+    </body>
+    <script>
+        var cookies = 0;
+        
+        function increase() {
+                    cookies = cookies + 1;
+                    clicked.innerHTML = cookies;
+        }
+    </script>
+    <footer><br><a href="https://www.prestige383.github.io/index.html">Back to main page</a></footer>
+</html>
